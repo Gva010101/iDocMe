@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8123ECE92C7B51980074D72F /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123ECE82C7B51980074D72F /* UserSettings.swift */; };
+		8123ECEB2C7B51D20074D72F /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123ECEA2C7B51D20074D72F /* Albums.swift */; };
+		8123ECED2C7B51F40074D72F /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123ECEC2C7B51F40074D72F /* ScanView.swift */; };
+		8123ECF52C7D01C30074D72F /* DocumentCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123ECF42C7D01C30074D72F /* DocumentCamera.swift */; };
+		8123ECF72C7D04E70074D72F /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123ECF62C7D04E70074D72F /* PhotoManager.swift */; };
+		814A70722CA689C0003410E1 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A70712CA689C0003410E1 /* CropViewController.swift */; };
+		814A70742CA826D3003410E1 /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A70732CA826D3003410E1 /* ImageEditorView.swift */; };
+		814A707C2CAC7C07003410E1 /* ButtonsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A707B2CAC7C07003410E1 /* ButtonsImage.swift */; };
+		814A707E2CADA6C3003410E1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A707D2CADA6C3003410E1 /* ButtonView.swift */; };
+		81E945112C8DBBD30019DFB6 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E945102C8DBBD30019DFB6 /* ImagePickerView.swift */; };
+		81E945142C9047980019DFB6 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 81E945132C9047980019DFB6 /* CropViewController */; };
+		81E945162C9047980019DFB6 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 81E945152C9047980019DFB6 /* TOCropViewController */; };
+		81FC15D42C75107B00568677 /* iDocMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC15D32C75107B00568677 /* iDocMeApp.swift */; };
+		81FC15D62C75107B00568677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC15D52C75107B00568677 /* ContentView.swift */; };
+		81FC15D82C75107D00568677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FC15D72C75107D00568677 /* Assets.xcassets */; };
+		81FC15DB2C75107D00568677 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FC15DA2C75107D00568677 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8123ECE82C7B51980074D72F /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		8123ECEA2C7B51D20074D72F /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		8123ECEC2C7B51F40074D72F /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		8123ECF42C7D01C30074D72F /* DocumentCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCamera.swift; sourceTree = "<group>"; };
+		8123ECF62C7D04E70074D72F /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		814A70712CA689C0003410E1 /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		814A70732CA826D3003410E1 /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorView.swift; sourceTree = "<group>"; };
+		814A707B2CAC7C07003410E1 /* ButtonsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsImage.swift; sourceTree = "<group>"; };
+		814A707D2CADA6C3003410E1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		81E945102C8DBBD30019DFB6 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		81FC15D02C75107B00568677 /* iDocMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDocMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC15D32C75107B00568677 /* iDocMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDocMeApp.swift; sourceTree = "<group>"; };
+		81FC15D52C75107B00568677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81FC15D72C75107D00568677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81FC15DA2C75107D00568677 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81FC15CD2C75107B00568677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E945162C9047980019DFB6 /* TOCropViewController in Frameworks */,
+				81E945142C9047980019DFB6 /* CropViewController in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8123ECF82C7D0AE00074D72F /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				8123ECF62C7D04E70074D72F /* PhotoManager.swift */,
+				8123ECF42C7D01C30074D72F /* DocumentCamera.swift */,
+				81E945102C8DBBD30019DFB6 /* ImagePickerView.swift */,
+				814A70712CA689C0003410E1 /* CropViewController.swift */,
+				814A707F2CADAC1B003410E1 /* buttons */,
+				814A707D2CADA6C3003410E1 /* ButtonView.swift */,
+				814A707B2CAC7C07003410E1 /* ButtonsImage.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		8123ECF92C7D0B190074D72F /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				8123ECEC2C7B51F40074D72F /* ScanView.swift */,
+				8123ECEA2C7B51D20074D72F /* Albums.swift */,
+				8123ECE82C7B51980074D72F /* UserSettings.swift */,
+				814A70732CA826D3003410E1 /* ImageEditorView.swift */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		814A707F2CADAC1B003410E1 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		81FC15C72C75107B00568677 = {
+			isa = PBXGroup;
+			children = (
+				81FC15D22C75107B00568677 /* iDocMe */,
+				81FC15D12C75107B00568677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81FC15D12C75107B00568677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81FC15D02C75107B00568677 /* iDocMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81FC15D22C75107B00568677 /* iDocMe */ = {
+			isa = PBXGroup;
+			children = (
+				81FC15D32C75107B00568677 /* iDocMeApp.swift */,
+				81FC15D52C75107B00568677 /* ContentView.swift */,
+				8123ECF92C7D0B190074D72F /* windows */,
+				8123ECF82C7D0AE00074D72F /* tools */,
+				81FC15D72C75107D00568677 /* Assets.xcassets */,
+				81FC15D92C75107D00568677 /* Preview Content */,
+			);
+			path = iDocMe;
+			sourceTree = "<group>";
+		};
+		81FC15D92C75107D00568677 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81FC15DA2C75107D00568677 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81FC15CF2C75107B00568677 /* iDocMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FC15DE2C75107D00568677 /* Build configuration list for PBXNativeTarget "iDocMe" */;
+			buildPhases = (
+				81FC15CC2C75107B00568677 /* Sources */,
+				81FC15CD2C75107B00568677 /* Frameworks */,
+				81FC15CE2C75107B00568677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDocMe;
+			packageProductDependencies = (
+				81E945132C9047980019DFB6 /* CropViewController */,
+				81E945152C9047980019DFB6 /* TOCropViewController */,
+			);
+			productName = iDocMe;
+			productReference = 81FC15D02C75107B00568677 /* iDocMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81FC15C82C75107B00568677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					81FC15CF2C75107B00568677 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 81FC15CB2C75107B00568677 /* Build configuration list for PBXProject "iDocMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81FC15C72C75107B00568677;
+			packageReferences = (
+				81E945122C9047980019DFB6 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
+			productRefGroup = 81FC15D12C75107B00568677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81FC15CF2C75107B00568677 /* iDocMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81FC15CE2C75107B00568677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC15DB2C75107D00568677 /* Preview Assets.xcassets in Resources */,
+				81FC15D82C75107D00568677 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81FC15CC2C75107B00568677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8123ECEB2C7B51D20074D72F /* Albums.swift in Sources */,
+				8123ECE92C7B51980074D72F /* UserSettings.swift in Sources */,
+				814A707E2CADA6C3003410E1 /* ButtonView.swift in Sources */,
+				81FC15D62C75107B00568677 /* ContentView.swift in Sources */,
+				81E945112C8DBBD30019DFB6 /* ImagePickerView.swift in Sources */,
+				8123ECF72C7D04E70074D72F /* PhotoManager.swift in Sources */,
+				8123ECF52C7D01C30074D72F /* DocumentCamera.swift in Sources */,
+				814A707C2CAC7C07003410E1 /* ButtonsImage.swift in Sources */,
+				81FC15D42C75107B00568677 /* iDocMeApp.swift in Sources */,
+				8123ECED2C7B51F40074D72F /* ScanView.swift in Sources */,
+				814A70722CA689C0003410E1 /* CropViewController.swift in Sources */,
+				814A70742CA826D3003410E1 /* ImageEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81FC15DC2C75107D00568677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81FC15DD2C75107D00568677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81FC15DF2C75107D00568677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDocMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D234MQ93F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.iDocMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81FC15E02C75107D00568677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDocMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D234MQ93F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.iDocMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81FC15CB2C75107B00568677 /* Build configuration list for PBXProject "iDocMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC15DC2C75107D00568677 /* Debug */,
+				81FC15DD2C75107D00568677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FC15DE2C75107D00568677 /* Build configuration list for PBXNativeTarget "iDocMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC15DF2C75107D00568677 /* Debug */,
+				81FC15E02C75107D00568677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81E945122C9047980019DFB6 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81E945132C9047980019DFB6 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E945122C9047980019DFB6 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		81E945152C9047980019DFB6 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E945122C9047980019DFB6 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81FC15C82C75107B00568677 /* Project object */;
+}
